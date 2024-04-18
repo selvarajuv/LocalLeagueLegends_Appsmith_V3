@@ -1,8 +1,28 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Landing",
       "isDefault": true
+    },
+    {
+      "id": "Managers View Coaches",
+      "isDefault": false
+    },
+    {
+      "id": "Managers View Teams",
+      "isDefault": false
+    },
+    {
+      "id": "Players View Practices",
+      "isDefault": false
+    },
+    {
+      "id": "Players View Games",
+      "isDefault": false
+    },
+    {
+      "id": "Players View Stats",
+      "isDefault": false
     }
   ],
   "viewMode": false,
