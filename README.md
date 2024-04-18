@@ -1,5 +1,8 @@
 # LocalLeagueLegends_Appsmith_V3
-Appsmith UI for LocalLeagueLegends project
+This is a Appsmith UI for the LocalLeagueLegends backend. The website gives the user
+three different personas to navigate as (Players, Managers, Coaches). Each persona
+is able to view their appropriate information and can perform each of the four operations. 
+No prior knowledge is needed to operate this website.
 ![](https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/appsmith_logo_primary.png)
 
 This app is built using Appsmith. Turn any datasource into an internal app in minutes. Appsmith lets you drag-and-drop components to build dashboards, write logic with JavaScript objects and connect to any API, database or GraphQL source.
