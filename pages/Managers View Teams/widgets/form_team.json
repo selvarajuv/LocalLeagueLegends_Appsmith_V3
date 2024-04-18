@@ -2,11 +2,11 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#231f20",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "onSubmit": "{{add_teams.run().then(() => {\n  showAlert('Team Added', '');\n}).catch(() => {\n  showAlert('Error: Team Not Added', '');\n});}}",
-    "topRow": 70,
+    "onSubmit": "{{add_teams.run().then(() => {\n  showAlert('Team Added', '');\n  get_teams.run();\n}).catch(() => {\n  showAlert('Error: Team Not Added', '');\n});}}",
+    "topRow": 55,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
-    "leftColumn": 0,
+    "leftColumn": 17,
     "dynamicBindingPathList": [
         {"key": "boxShadow"},
         {"key": "resetButtonStyles.borderRadius"},
@@ -16,7 +16,8 @@
         {"key": "schema.__root_schema__.children.customField2.accentColor"},
         {"key": "schema.__root_schema__.children.customField2.borderRadius"},
         {"key": "schema.__root_schema__.children.customField4.accentColor"},
-        {"key": "schema.__root_schema__.children.customField4.borderRadius"}
+        {"key": "schema.__root_schema__.children.customField4.borderRadius"},
+        {"key": "schema.__root_schema__.children.customField4.defaultValue"}
     ],
     "showReset": true,
     "flexVerticalAlignment": "start",
@@ -115,7 +116,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "1.5rem",
-    "originalBottomRow": 111,
+    "originalBottomRow": 96,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -178,6 +179,7 @@
                 "isRequired": false,
                 "isCustomField": true,
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(form_team.sourceData, form_team.formData, form_team.fieldState)}}",
+                "defaultValue": "{{((sourceData, formData, fieldState) => (appsmith.store.league_id))(form_team.sourceData, form_team.formData, form_team.fieldState)}}",
                 "dataType": "string",
                 "accessor": "league_id",
                 "isVisible": true,
@@ -188,7 +190,7 @@
                 "isSpellCheck": false,
                 "iconAlign": "left",
                 "position": 3,
-                "isDisabled": false,
+                "isDisabled": true,
                 "sourceData": "",
                 "fieldType": "Text Input"
             }
@@ -209,7 +211,7 @@
     },
     "dynamicPropertyPathList": [{"key": "sourceData"}],
     "displayName": "JSON Form",
-    "bottomRow": 111,
+    "bottomRow": 96,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Add Teams",
@@ -223,7 +225,7 @@
     "key": "zu8sf5xfvw",
     "backgroundColor": "#d8b4fe",
     "isDeprecated": false,
-    "rightColumn": 30,
+    "rightColumn": 47,
     "widgetId": "wk64whm9k3",
     "minWidth": 450,
     "parentId": "0",
@@ -232,7 +234,7 @@
     "scrollContents": true,
     "responsiveBehavior": "fill",
     "fixedFooter": true,
-    "originalTopRow": 70,
+    "originalTopRow": 55,
     "mobileLeftColumn": 39,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4

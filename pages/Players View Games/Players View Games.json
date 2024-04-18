@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1070,
+          "bottomRow": 810,
           "containerStyle": "none",
           "snapRows": 86,
           "parentRowSpace": 1,
@@ -32,7 +32,9 @@
               "name": "get_gameAttendance",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "appsmith.store.player_id"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]

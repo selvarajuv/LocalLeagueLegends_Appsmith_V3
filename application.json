@@ -23,6 +23,30 @@
     {
       "id": "Players View Stats",
       "isDefault": false
+    },
+    {
+      "id": "Managers Landing",
+      "isDefault": false
+    },
+    {
+      "id": "Players Landing",
+      "isDefault": false
+    },
+    {
+      "id": "Coaches View Team",
+      "isDefault": false
+    },
+    {
+      "id": "Coaches Landing",
+      "isDefault": false
+    },
+    {
+      "id": "Coaches View Practice",
+      "isDefault": false
+    },
+    {
+      "id": "Coaches View Stats",
+      "isDefault": false
     }
   ],
   "viewMode": false,

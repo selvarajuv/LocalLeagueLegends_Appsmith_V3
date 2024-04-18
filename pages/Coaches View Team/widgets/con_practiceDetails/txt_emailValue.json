@@ -1,6 +1,6 @@
 {
     "mobileBottomRow": 9,
-    "widgetName": "txt_email",
+    "widgetName": "txt_emailValue",
     "displayName": "Text",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
@@ -19,27 +19,28 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 5.5732421875,
     "dynamicTriggerPathList": [],
-    "leftColumn": 2,
+    "leftColumn": 25,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "text"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Address",
+    "text": "{{tbl_teamDetails.selectedRow.teamName}}",
     "key": "jl31nlbh5s",
     "isDeprecated": false,
-    "rightColumn": 25,
+    "rightColumn": 62,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "yz3veu9q3i",
+    "widgetId": "cloi0xtgqb",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "",
-    "textColor": "#231f20",
+    "textColor": "#101828",
     "version": 1,
-    "parentId": "5wpn3e49un",
+    "parentId": "9w8d20518y",
     "tags": [
         "Suggested",
         "Content"

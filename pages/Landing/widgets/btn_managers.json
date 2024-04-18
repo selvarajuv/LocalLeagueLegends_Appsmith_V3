@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 20,
     "widgetName": "btn_managers",
-    "onClick": "{{storeValue('league_id', '1');\nstoreValue('manager_id', '20');\nnavigateTo(\"\", {}, 'SAME_WINDOW')}}",
+    "onClick": "{{storeValue('league_id', '1');\nstoreValue('manager_id', '20');\nnavigateTo('Managers Landing', {}, 'SAME_WINDOW');}}",
     "buttonColor": "#d8b4fe",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
@@ -40,11 +40,11 @@
     "isLoading": false,
     "mobileTopRow": 16,
     "responsiveBehavior": "hug",
-    "originalTopRow": 28,
+    "originalTopRow": 18,
     "disabledWhenInvalid": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 23,
-    "originalBottomRow": 35,
+    "originalBottomRow": 25,
     "buttonVariant": "PRIMARY",
     "placement": "CENTER"
 }

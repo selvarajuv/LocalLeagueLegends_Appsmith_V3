@@ -6,8 +6,8 @@
     "displayName": "Form",
     "iconSVG": "/static/media/icon.ea3e08d130e59c56867ae40114c10eed.svg",
     "searchTags": ["group"],
-    "topRow": 114,
-    "bottomRow": 139,
+    "topRow": 80,
+    "bottomRow": 105,
     "parentRowSpace": 10,
     "type": "FORM_WIDGET",
     "hideCard": false,
@@ -59,9 +59,9 @@
     "parentId": "0",
     "renderMode": "CANVAS",
     "isLoading": false,
-    "originalTopRow": 114,
+    "originalTopRow": 80,
     "borderRadius": "1.5rem",
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 139,
+    "originalBottomRow": 105,
     "minDynamicHeight": 10
 }

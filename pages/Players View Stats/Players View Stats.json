@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1390,
+          "bottomRow": 1050,
           "containerStyle": "none",
           "snapRows": 86,
           "parentRowSpace": 1,
@@ -32,7 +32,9 @@
               "name": "get_playerProfile",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "appsmith.store.player_id"
+              ],
               "timeoutInMillisecond": 10000
             }
           ],
@@ -42,7 +44,9 @@
               "name": "get_playerStats",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "appsmith.store.player_id"
+              ],
               "timeoutInMillisecond": 10000
             }
           ],
@@ -53,6 +57,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
+                "appsmith.store.player_id",
                 "slct_gameId.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000

@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 9.73681640625,
     "dynamicTriggerPathList": [],
-    "leftColumn": 2,
+    "leftColumn": 1,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -31,7 +31,7 @@
     "text": "Game Details",
     "key": "riq8uwbbco",
     "isDeprecated": false,
-    "rightColumn": 61,
+    "rightColumn": 60,
     "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "7wj95uxayb",

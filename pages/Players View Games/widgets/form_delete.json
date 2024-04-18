@@ -3,13 +3,12 @@
     "borderColor": "#231f20",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
     "onSubmit": "{{delete_practiceAttendance.run().then(() => {\n  showAlert('Practice Attendance Deleted', '');\n  get_gameAttendance.run();\n}).catch(() => {\n  showAlert('Erorr: Practice Attendance not Deleted', '');\n});}}",
-    "topRow": 72,
+    "topRow": 45,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
-    "leftColumn": 33,
+    "leftColumn": 37,
     "dynamicBindingPathList": [
         {"key": "boxShadow"},
-        {"key": "submitButtonStyles.buttonColor"},
         {"key": "submitButtonStyles.borderRadius"},
         {"key": "resetButtonStyles.buttonColor"},
         {"key": "resetButtonStyles.borderRadius"},
@@ -160,7 +159,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "1.5rem",
-    "originalBottomRow": 106,
+    "originalBottomRow": 79,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -284,7 +283,7 @@
                 "iconAlign": "left",
                 "position": 12,
                 "isDisabled": false,
-                "sourceData": 37,
+                "sourceData": 20,
                 "fieldType": "Number Input"
             },
             "winner_id": {
@@ -306,7 +305,7 @@
                 "iconAlign": "left",
                 "position": 14,
                 "isDisabled": false,
-                "sourceData": 4,
+                "sourceData": 2,
                 "fieldType": "Number Input"
             },
             "referee": {
@@ -372,7 +371,7 @@
                 "iconAlign": "left",
                 "position": 4,
                 "isDisabled": true,
-                "sourceData": 2,
+                "sourceData": 22,
                 "fieldType": "Number Input"
             },
             "phone": {
@@ -504,7 +503,7 @@
                 "iconAlign": "left",
                 "position": 11,
                 "isDisabled": true,
-                "sourceData": 1,
+                "sourceData": 5,
                 "fieldType": "Number Input"
             }
         },
@@ -523,12 +522,12 @@
     "submitButtonStyles": {
         "boxShadow": "none",
         "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-        "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+        "buttonColor": "#a855f7",
         "buttonVariant": "PRIMARY"
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 106,
+    "bottomRow": 79,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Delete Attendance",
@@ -542,7 +541,7 @@
     "key": "8u1q82kk1z",
     "backgroundColor": "#d8b4fe",
     "isDeprecated": false,
-    "rightColumn": 58,
+    "rightColumn": 62,
     "widgetId": "tutcpkfxrn",
     "minWidth": 450,
     "parentId": "0",
@@ -551,7 +550,7 @@
     "scrollContents": true,
     "responsiveBehavior": "fill",
     "fixedFooter": true,
-    "originalTopRow": 72,
+    "originalTopRow": 45,
     "mobileLeftColumn": 38,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4
